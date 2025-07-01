@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-list-item::before {
+    margin-right: .4em;
+    font-family: "Material Design Icons";
+    content: "󰅂"; /* Unicode or appropriate icon */
+    vertical-align: top;
+    position: relative;
+    left: 0;
+    transition: all .3s ease-out;
+}

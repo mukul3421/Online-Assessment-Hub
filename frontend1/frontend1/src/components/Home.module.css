@@ -1,0 +1,15 @@
+.card-image{
+font-family: "Material Design Icons" !important;
+    font-size: 12em;
+    width:35px;
+    text-decoration: none !important;
+    position: relative;
+    float: right;
+    color: rgba(0, 0, 0, 0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.5490196078) 20%, rgb(255, 255, 255));
+    z-index: -1;
+    margin-bottom: -1em;
+    content: "\F07B0";
+}
